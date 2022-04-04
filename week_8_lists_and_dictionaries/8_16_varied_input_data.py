@@ -10,3 +10,15 @@
 # 10 20
 # Note: For output, round the average to the nearest integer.
 
+''' Type your code here. '''
+import statistics
+
+input = input()
+
+nums = list(input.split())
+
+nums = ([int(x) for x in nums])
+
+average = int( sum(nums) / len(nums) ) 
+
+print(f"{average} {max(nums)}")
